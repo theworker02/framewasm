@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/framewasm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frame validation gates for wasm inputs before they hit prod.",
+  "bin": {
+    "framewasm": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/framewasm.git"
+  },
+  "homepage": "https://theworker02.github.io/framewasm/",
+  "keywords": [
+    "frame",
+    "wasm",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
